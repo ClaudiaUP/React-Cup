@@ -1,5 +1,5 @@
 
-import './NavBar.scss'
+import './NavBar.css'
 import logo from './logo vivero.jpg'
 import {CartWidget} from "../CartWidget/CartWidget"
 
