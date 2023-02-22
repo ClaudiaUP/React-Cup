@@ -12,7 +12,7 @@ function App() {
    <div>
     <Navbarx/>
     
-    <ItemListContainer greeting = "Toque el botón para iniciar" />
+    <ItemListContainer greeting = "Bienvenido al mundo de las plantas" />
 
    
 
