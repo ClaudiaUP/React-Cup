@@ -1,12 +1,23 @@
 
 
 [
-    {"id":1, "nombre": "Alanso", "precio":850, "cantidad":1, "img": "../imagenes/alanso.jpg", "categoria": "arboles" },
-    {"id":2, "nombre": "Giveaway", "precio":1000, "cantidad":1,  "img": "../imagenes/giveaway.jpg", "categoria":"arbustos"},
-    {"id":3, "nombre": "Reprogenes", "precio":1350, "cantidad":1, "img": "../imagenes/reprogenes.jpg", "categoria": "flores" },
-    {"id":4, "nombre": "Select", "precio":920,"cantidad":1,  "img": "../imagenes/select.jpg", "categoria": "suculentas" },
-    {"id":5, "nombre": "Warrent", "precio":1400, "cantidad":1, "img": "../imagenes/warrent.jpg", "categoria": "pinterior"},
-    {"id":6, "nombre": "Beatle", "precio":700,"cantidad":1, "img": "../imagenes/beatle.jpg", "categoria": "arboles"},
-    {"id":7, "nombre": "Brave", "precio":1280,"cantidad":1, "img": "../imagenes/brave.jpg", "categoria": "flores"},
-    {"id":8, "nombre": "House", "precio":1005,"cantidad":1, "img": "../imagenes/house.jpg", "categoria": "suculentas" }
+    {"id":1, "nombre": "Acacia", "precio":3200, "cantidad":1, "img": "../imagenes/acacia.jpg", "categoria": "arboles" },
+    {"id":2, "nombre": "Araucaria bidwili", "precio":4000, "cantidad":1, "img": "../imagenes/Araucaria.jpg", "categoria": "arboles" },
+    {"id":3, "nombre": "Acer sicomoro", "precio":3800, "cantidad":1, "img": "../imagenes/Acer.jpg", "categoria": "arboles" },
+    {"id":4, "nombre": "Jacarandá", "precio":5000, "cantidad":1, "img": "../imagenes/Jacaranda.jpg", "categoria": "arboles" },
+    {"id":5, "nombre": "Abelia grandiflora", "precio":2500, "cantidad":1,  "img": "../imagenes/abelia.bmp", "categoria":"arbustos"},
+    {"id":6, "nombre": "Azalea japónica", "precio":3350, "cantidad":1, "img": "../imagenes/azalea.jpg", "categoria": "arbustos" },
+    {"id":7, "nombre": "Azarero", "precio":3100,"cantidad":1,  "img": "../imagenes/azarero.jpg", "categoria": "arbustos" },
+    {"id":8, "nombre": "Jazmín paraguayo", "precio":2800, "cantidad":1, "img": "../imagenes/Jazmin.jpg", "categoria": "Arbusto"},
+    {"id":9, "nombre": "Ciruelo", "precio":5500,"cantidad":1, "img": "../imagenes/Ciruelo.jpg", "categoria": "frutales"},
+    {"id":10, "nombre": "Higuera", "precio":6200,"cantidad":1, "img": "../imagenes/Higuera.jpg", "categoria": "frutales"},
+    {"id":11, "nombre": "Duraznero", "precio":7000,"cantidad":1, "img": "../imagenes/Prunus.jpg", "categoria": "frutales" },
+    {"id":12, "nombre": "Chamaerops exelsa", "precio":10000,"cantidad":1, "img": "../imagenes/Chamaerops.jpg", "categoria": "palmeras" },
+    {"id":13, "nombre": "Butia Yatay", "precio":7900,"cantidad":1, "img": "../imagenes/butia.jpg", "categoria": "palmeras" },
+    {"id":14, "nombre": "Syagrus", "precio":11000,"cantidad":1, "img": "../imagenes/Syagrus.jpg", "categoria": "palmeras" },
+    {"id":15, "nombre": "Sansiviera", "precio":5000,"cantidad":1, "img": "../imagenes/Sansiviera.jpg", "categoria": "Pinterior" },
+    {"id":16, "nombre": "Helecho", "precio":3500,"cantidad":1, "img": "../imagenes/Helecho.jpg", "categoria": "Pinterior" },
+    {"id":17, "nombre": "Potus", "precio":6500,"cantidad":1, "img": "../imagenes/Potus.jpg", "categoria": "Pinterior" },
+    {"id":18, "nombre": "Dieffenbachia", "precio":6800,"cantidad":1, "img": "../imagenes/Prunus.jpg", "categoria": "Pinterior" }
+    
 ]
