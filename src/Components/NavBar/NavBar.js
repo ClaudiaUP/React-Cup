@@ -2,6 +2,7 @@
 import './NavBar.css'
 import logo from './logo vivero.jpg'
 import {CartWidget} from "../CartWidget/CartWidget"
+import {Link} from 'react-router-dom'
 
 
 
@@ -17,13 +18,22 @@ export const Navbarx =() => {
           <h1 className="titulo" >Vivero "La Araucaria"</h1>
           </div>
           
+          
+          
 
            <nav className ="NavBar">
-           <img src={logo} alt="logo" className="header_logo"/>
-              <a href="#" className = "navbar_link">Home</a>
-              <a href="#" className = "navbar_link">Nuestras plantas</a>
-              <a href="./Servicios.js" className = "navbar_link">Servicios</a>
-              <a href="#" className = "navbar_link">Contactos</a>
+           <Link to="/">
+          <img src={logo} alt="logo" className="header_logo"/>
+          </Link>
+           
+              <Link to="/" className = "navbar_link">Home</Link>
+              <Link to="/productos/arboles" className = "navbar_link">Arboles</Link>
+              <Link to="/productos/arbustos" className = "navbar_link">Arbustos</Link>
+              <Link to="/productos/flores" className = "navbar_link">Flores</Link>
+              <Link to="/productos/pinterior" className = "navbar_link">Plantas interior</Link>
+              <Link to="/productos/suculentas" className = "navbar_link">Suculentas</Link>
+              <Link to="/contacto" className = "navbar_link">Contacto</Link>
+              
            <CartWidget />
            </nav>
 
