@@ -15,7 +15,7 @@ const ItemDetailContainer = () => {
     useEffect(() => {
         setLoading(true)
 
-        pedirProductoPorId( Number(itemId) )
+        pedirProductoPorId(Number(itemId))
             .then((resp) => {
                 setItem(resp)
             })
