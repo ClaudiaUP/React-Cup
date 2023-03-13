@@ -1,0 +1,17 @@
+.lineaGruesa{
+    border: 3px solid darkgreen; 
+    
+}
+
+.centrado{
+    text-align: center;
+}
+
+.separar{
+    margin-left: 50px;
+}
+
+.tamañoLetra{
+    font-size: 1.2em;
+    margin-top: 20px;
+}

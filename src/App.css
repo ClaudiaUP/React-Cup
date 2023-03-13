@@ -1,4 +1,29 @@
 
-.ubicacion{
-    margin-left: 200px;
+*{
+    margin:0;
+    padding:0;
 }
+
+html,
+body{
+    font-size: 18px;
+    background-color:chartreuse;
+}
+
+ .App{
+    min-height:100vh; 
+     display:flex;  
+    flex-wrap: wrap; 
+     align-items:center; 
+     justify-content: center; 
+    text-align:center; 
+} 
+
+ .contenedor-principal{
+    min-height:600px;
+     display:flex; 
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+
+} 

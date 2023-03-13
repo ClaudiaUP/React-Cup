@@ -1,0 +1,31 @@
+
+.contenedorPlantas{
+    width:1170px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f7fa;
+    box-shadow: 0, 3px 13px 1px rgb(0 0 0 / 9%);
+    border: 2px solid cornflowerblue;
+}
+
+.imagen-planta{
+    height:100%;
+    width:auto;
+
+}
+
+.contonedorDetalle{
+    text-align:center;
+     padding: 10px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    font-weight: 400; 
+}
+
+.boton{
+    color: white;
+    background-color: darkolivegreen;
+}

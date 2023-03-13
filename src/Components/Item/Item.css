@@ -1,0 +1,29 @@
+
+
+  .card{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 400px;
+    margin: 40px;
+    padding-left: 10px;
+    /* border: 50px solid darkolivegreen;  */
+  }
+
+ 
+
+ .imgProductos{
+    width: 150px;
+    height: 200px;
+    object-fit: contain;
+    margin-top: 0.5rem;
+} 
+
+.espacioTop{
+    margin-top: 50px;
+}
+
+.boton{
+    color: white;
+    background-color: darkolivegreen;
+}
