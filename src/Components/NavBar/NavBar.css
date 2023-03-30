@@ -19,7 +19,7 @@
 
         }
   
-        .NavBar{
+        .navBar{
             color: darkgreen;
             display: flex;
             align-items: center;
@@ -39,6 +39,14 @@
             .titulo{
                 color: darkgreen;
                 text-align:center
-              }     
+              } 
+              
+              .login-state {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 20px 20px;
+                color: white;
+            } 
          
      

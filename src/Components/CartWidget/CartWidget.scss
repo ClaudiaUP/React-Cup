@@ -1,10 +1,15 @@
 
-.carritoTamanio{
-    width: 40px;
-    height: 40px;
+ .cart-widget{
+    font-size: 26px;
+    color:black;
+    visibility:hidden;
+    min-width:100px;
+    opacity:0;
+    transition: all .3s;
+ }
+
+ .cart-widget-active{
+    visibility: visible;
+     opacity: 1;
 }
 
-.carritoNumero{
-    width: 20px;
-    height: 20px;
-}

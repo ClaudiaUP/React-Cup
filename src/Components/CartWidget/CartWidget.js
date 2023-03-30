@@ -1,29 +1,25 @@
 
 
-import Badge from 'react-bootstrap/Badge'
+// import Badge from 'react-bootstrap/Badge'
 import './CartWidget.scss'
+import { useContext } from 'react'
+import { FaShoppingCart } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
+import { CartContext } from '../../context/CartContext'
 
-export const CartWidget = () => {
-  return (
-      <div className='carritoHeader'>
-          <img src='./imagenes/carrito.jpg' alt="Carrito" className='carritoTamanio'/> 
-          <Badge bg="danger" className='carritoNumero'>7</Badge>
-          <span className="visually-hidden">unread messages</span>
-      </div>
-  )
+
+const CartWidget = () => {
+
+    const { cart, totalCantidad } = useContext(CartContext)
+
+    return (
+        <Link to="/cart" className={`cart-widget ${cart.length > 0 ? 'cart-widget-active' : ''}`}>
+            <FaShoppingCart />
+            <span>{totalCantidad()}</span>
+        </Link>
+    )
 }
 
- 
-
-
-//  export const CartWidget = () =>{
-//    return(
-//      <div>
-//      <img scr='./imagenes/carrito.jpg' alt="carrito" className= "carrito"/>
-//      </div>
-//    )
-
-//  }
-
+export default CartWidget
 
  

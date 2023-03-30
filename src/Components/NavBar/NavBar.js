@@ -1,8 +1,10 @@
 
-import './NavBar.css'
+import './NavBar.css' 
 import logo from './logo vivero.jpg'
-import {CartWidget} from "../CartWidget/CartWidget"
+import CartWidget from "../CartWidget/CartWidget"
 import {Link} from 'react-router-dom'
+import { useContext } from 'react'
+import { LoginContext } from '../../context/LoginContext'
 
 
 
@@ -10,6 +12,7 @@ import {Link} from 'react-router-dom'
 
 
 export const Navbarx =() => {
+  const {user, logout} =useContext(LoginContext)
   return(
       
       <header className="header">
@@ -21,7 +24,7 @@ export const Navbarx =() => {
           
           
 
-           <nav className ="NavBar">
+           <nav className ="navBar">
            <Link to="/">
           <img src={logo} alt="logo" className="header_logo"/>
           </Link>
@@ -37,6 +40,11 @@ export const Navbarx =() => {
            </nav>
 
         
+        </div>
+
+        <div className = 'login-state container'>
+          <h6>Bienvenido {user.email}</h6>
+          <button className= 'btn btn-danger' onClick= {logout}>Logout</button>
         </div>
       </header>
   )
