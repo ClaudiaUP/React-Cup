@@ -141,10 +141,10 @@
   },
   {
     "id": 15,
-    "nombre": "Sansiviera",
+    "nombre": "Árbol de Fuego",
     "precio": 5000,
     "cantidad": 1,
-    "img": "../imagenes/Sansiviera.jpg",
+    "img": "../imagenes/arbol",
     "categoria": "Pinterior",
     "descripcion": "La sansevieria, también conocida por su nombre científico como a Sansevieria trifasciata, es una planta de interior fácil de cultivar. También es conocida popularmente como lengua de tigre, lengua de vaca, lengua de suegra, lengua de gato, rabo de tigre y espada de San Jorge. Se trata de una planta muy decorativa y resistente. La sansevieria aguanta muy bien tanto temperaturas elevadas como bajas (hasta -5 °C). Además, es una planta que ayuda a limpiar el aire del interior de la casa.",
     "stock": 60
