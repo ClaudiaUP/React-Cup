@@ -154,7 +154,7 @@
     "nombre": "Cryptomería",
     "precio": 5500,
     "cantidad": 1,
-    "img": "../imagenes/Criptomeria japónica",
+    "img": "../imagenes/Criptomeria",
     "categoria": "arboles",
     "descripcion": "Es un árbol perennifolio muy grande, alcanzando 70 m de altura y 4 m de diámetro de tronco, con corteza rojo parduzca con flecos en tiras verticales. Tiene hojas espiraladas, tipo aguja.",
     "stock": 30
@@ -254,7 +254,7 @@
     "nombre": "Ginala",
     "precio": 6800,
     "cantidad": 1,
-    "img": "../imagenes/Acer Ginala",
+    "img": "../imagenes/Acer Ginala.jpeg",
     "categoria": "arboles",
     "descripcion":"Los arces son fácilmente distinguibles por sus hojas, normalmente, aunque también se dan las, pinnadas compuestas, pinnadas avetadas y sin lóbulos. Los arces florecen a finales de invierno o principios de la primavera, en la mayoría de las especies a la vez que aparecen las hojas.",
     "stock": 32
@@ -284,7 +284,7 @@
     "nombre": "Guindo",
     "precio": 6800,
     "cantidad": 1,
-    "img": "../imagenes/.Guindo.jpeg",
+    "img": "../imagenes/Guindo.jpeg",
     "categoria": "frutales",
     "descripcion":"Árbol de la familia de las rosáceas, especie de cerezo, del que puede distinguirse por ser las hojas más pequeñas y el fruto más redondo y comúnmente ácido.",
     "stock": 24
