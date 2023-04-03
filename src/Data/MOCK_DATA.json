@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "nombre": "Ginkgo biloba",
+    "nombre": "Ginkgo",
     "precio": 3200,
     "cantidad": 1,
     "img": "../imagenes/Ginkgo.jpg",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "nombre": "Fraxinus aurea",
+    "nombre": "Fraxinus",
     "precio": 4000,
     "cantidad": 1,
     "img": "../imagenes/fraxinus1.jpg",
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "nombre": "Acer palmatum",
+    "nombre": "Acer",
     "precio": 3800,
     "cantidad": 1,
     "img": "../imagenes/Acer palmatum.jpg",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "nombre": "Abelia grandiflora",
+    "nombre": "Abelia",
     "precio": 2500,
     "cantidad": 1,
     "img": "../imagenes/abelia.bmp",
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "nombre": "Azalea japónica",
+    "nombre": "Azalea",
     "precio": 3350,
     "cantidad": 1,
     "img": "../imagenes/azalea.jpg",
@@ -71,7 +71,7 @@
   },
   {
     "id": 8,
-    "nombre": "Jazmín paraguayo",
+    "nombre": "Jazmín",
     "precio": 2800,
     "cantidad": 1,
     "img": "../imagenes/Jazmin.jpg",
@@ -104,24 +104,24 @@
     "nombre": "Duraznero",
     "precio": 7000,
     "cantidad": 1,
-    "img": "../imagenes/Prunus.jpg",
+    "img": "../imagenes/duraznero1.jpg",
     "categoria": "frutales",
     "descripcion": "Árbol de hasta 6-8 m de altura, caducifolio e inerme. Las hojas son oblongas-lanceoladas o elípticas, acuminadas, cuneadas en la base, aserradas con dientes glandulíferos, glabrescentes, con estípulas caducas denticuladas. Las flores son solitarias o geminadas y con numerosas brácteas. Los sépalos son erectos enteros y los pétalos denticulados en el ápice, de color rosado fuerte.",
     "stock": 55
   },
   {
     "id": 12,
-    "nombre": "Chamaerops exelsa",
+    "nombre": "Chamaerops",
     "precio": 10000,
     "cantidad": 1,
     "img": "../imagenes/Chamaerops.jpg",
     "categoria": "palmeras",
-    "descripcion": "Crece hasta 15 m de altura en un único tallo de hasta 20-35 cm de diámetro. El tronco es muy duro con las bases de las hojas persistentes apretando el tallo como las capas de material fibroso grueso. Es una palma de abanico (Arecaceae Coryphoideae subfamilia, con las hojas con el pecíolo largo desnudo, excepto por dos hileras de pequeñas espinas, que terminan en un ventilador redondeada de numerosos folletos, cada hoja tiene 140-190 cm de largo , con el pecíolo de 60-100 cm de largo, y los folletos de hasta 90 cm de largo.",
+    "descripcion": "Crece hasta 15 m de altura en un único tallo de hasta 20-35 cm de diámetro. El tronco es muy duro con las bases de las hojas persistentes apretando el tallo como las capas de material fibroso grueso. Es una palma de abanico.",
     "stock": 55
   },
   {
     "id": 13,
-    "nombre": "Butia Yatay",
+    "nombre": "Butia",
     "precio": 7900,
     "cantidad": 1,
     "img": "../imagenes/butia.jpg",
@@ -141,39 +141,162 @@
   },
   {
     "id": 15,
-    "nombre": "Árbol de Fuego",
+    "nombre": "Chivatos",
     "precio": 5000,
     "cantidad": 1,
-    "img": "../imagenes/arbol",
-    "categoria": "Pinterior",
-    "descripcion": "La sansevieria, también conocida por su nombre científico como a Sansevieria trifasciata, es una planta de interior fácil de cultivar. También es conocida popularmente como lengua de tigre, lengua de vaca, lengua de suegra, lengua de gato, rabo de tigre y espada de San Jorge. Se trata de una planta muy decorativa y resistente. La sansevieria aguanta muy bien tanto temperaturas elevadas como bajas (hasta -5 °C). Además, es una planta que ayuda a limpiar el aire del interior de la casa.",
+    "img": "../imagenes/Arbol de fuego.jpg",
+    "categoria": "arboles",
+    "descripcion": "El Hila-garra (muerte-llama) es un árbol de 8-15 m de alto habitualmente, aunque su especie alcanza una altura máxima de 40 m esta solo se da en su hábitat de origen. Crece rápidamente, y es muy longevo. Es tolerante a climas templados donde se cultiva por su belleza.",
     "stock": 60
   },
   {
     "id": 16,
-    "nombre": "Helecho",
-    "precio": 3500,
+    "nombre": "Cryptomería",
+    "precio": 5500,
     "cantidad": 1,
-    "img": "../imagenes/Helechos.jpg",
-    "categoria": "Pinterior",
-    "descripcion": ""
+    "img": "../imagenes/Criptomeria japónica",
+    "categoria": "arboles",
+    "descripcion": "Es un árbol perennifolio muy grande, alcanzando 70 m de altura y 4 m de diámetro de tronco, con corteza rojo parduzca con flecos en tiras verticales. Tiene hojas espiraladas, tipo aguja.",
+    "stock": 30
   },
   {
     "id": 17,
-    "nombre": "Potus",
+    "nombre": "Lagerstroemia",
     "precio": 6500,
     "cantidad": 1,
-    "img": "../imagenes/Potus.jpg",
-    "categoria": "Pinterior",
-    "descripcion": ""
+    "img": "../imagenes/Lagerstroemia purpura.jpeg",
+    "categoria": "arboles",
+    "descripcion": "Son a menudo árboles grandes con la corteza lisa, cuya madera se utiliza por su dureza y flexibilidad . Tienen las ramas tetragonales, con las hojas opuestas o alternas en la parte superior. Son de color púrpura o con flores blancas.",
+    "stock": 28
   },
   {
     "id": 18,
-    "nombre": "Dieffenbachia",
+    "nombre": "Lagerstroemia",
     "precio": 6800,
     "cantidad": 1,
-    "img": "../imagenes/Prunus.jpg",
-    "categoria": "Pinterior",
-    "descripcion": ""
+    "img": "../imagenes/Lagerstroemia blanca.jpeg",
+    "categoria": "arboles",
+    "descripcion": "Son a menudo árboles grandes con la corteza lisa, cuya madera se utiliza por su dureza y flexibilidad . Tienen las ramas tetragonales, con las hojas opuestas o alternas en la parte superior. Son de color púrpura o con flores blancas.",
+    "stock": 15
+  },
+  {
+    "id": 19,
+    "nombre": "Malus",
+    "precio": 4500,
+    "cantidad": 1,
+    "img": "../imagenes/Manzano de jardin.jpeg",
+    "categoria": "arbustos",
+    "descripcion":"El manzano ornamental es un árbol o arbusto caducifolio de porte medio que tiene raíces pivotantes y oblicuas. Es una planta bastante rústica y de rápido crecimiento. De copa elíptica y redondeada que puede alcanzar entre 2 y 6 metros de diámetro",
+    "stock": 45
+    },
+  {
+    "id": 20,
+    "nombre": "Liquidambar",
+    "precio": 6800,
+    "cantidad": 1,
+    "img": "../imagenes/Liquidambar.jpeg",
+    "categoria": "arboles",
+    "descripcion": "Son árboles grandes, caducifolios, de 25 a 40 m de altura, aromáticos y resinosos, glabros o con pelos simples. La corteza es gris-pardo, profundamente asurcada, ocasionalmente con crestas longitudinales corchosas. Las hojas, largamente pecioladas y dispuestas espiralmente en las ramas,",
+    "stock": 30
+  },
+  {
+    "id": 21,
+    "nombre": "Ceibo",
+    "precio": 6800,
+    "cantidad": 1,
+    "img": "../imagenes/Ceibo.jpeg",
+    "categoria": "arboles",
+    "descripcion": "Es un árbol de porte mediano que puede alcanzar entre 5 a 8 m de altura, llegando raramente hasta los 20 m. y con un diámetro de tronco de más de 50 cm. Su raíz es pivotante, con nudosidades producidas por bacterias nitrificantes que viven en simbiosis.",
+    "stock": 28
+  },
+  {
+    "id": 22,
+    "nombre": "Callistemon",
+    "precio": 6800,
+    "cantidad": 1,
+    "img": "../imagenes/Callistemon.jpeg",
+    "categoria": "arboles",
+    "descripcion":"Es un género de árboles y arbustos de la familia Myrtaceae, llamado comúnmente limpiatubos o limpiabotellas por la forma de su inflorescencia. Conocido también como calistemo.",
+    "stock": 25
+  },
+  {
+    "id": 23,
+    "nombre": "Spiraea",
+    "precio": 6800,
+    "cantidad": 1,
+    "img": "../imagenes/Corona de novia.jpeg",
+    "categoria": "arboles",
+    "descripcion":"Se conoce como corona de novia (Spiraea cantoniensis) a una planta de la familia de las Rosáceas que es muy utilizada como planta ornamental gracias a su atractiva floración, además del llamativo aspecto que adquieren sus hojas con la llegada de las bajas temperaturas.",
+    "stock": 16
+  },
+  {
+    "id": 24,
+    "nombre": "Senecio",
+    "precio": 6800,
+    "cantidad": 1,
+    "img": "../imagenes/Senecio.jpeg",
+    "categoria": "arbustos",
+    "descripcion":"Senecio tamoides es una planta de hojas carnosas de porte trepador que crece encaramada a cualquier soporte que encuentre a su alcance. En primavera produce una multitud de flores amarillas que le dan un aire muy atractivo.",
+    "stock": 8
+  },
+  {
+    "id": 25,
+    "nombre": "Limonero",
+    "precio": 6800,
+    "cantidad": 1,
+    "img": "../imagenes/Limonero.jpeg",
+    "categoria": "frutales",
+    "descripcion":"Es un árbol perenne, a menudo con espinas, que puede alcanzar los cuatro metros de altura, con copa abierta muy ramificada. Se requiere la exposición de los limones a temperaturas de 10-13 °C, con humedad relativa de 85-90 % para su conservación industrial en estado fresco",
+    "stock": 19
+  },
+  {
+    "id": 26,
+    "nombre": "Ginala",
+    "precio": 6800,
+    "cantidad": 1,
+    "img": "../imagenes/Acer Ginala",
+    "categoria": "arboles",
+    "descripcion":"Los arces son fácilmente distinguibles por sus hojas, normalmente, aunque también se dan las, pinnadas compuestas, pinnadas avetadas y sin lóbulos. Los arces florecen a finales de invierno o principios de la primavera, en la mayoría de las especies a la vez que aparecen las hojas.",
+    "stock": 32
+  },
+  {
+    "id": 27,
+    "nombre": "Arecáceas",
+    "precio": 6800,
+    "cantidad": 1,
+    "img": "../imagenes/Arecaceas.jpeg",
+    "categoria": "palmeras",
+    "descripcion":"Las arecáceas  son una familia de plantas monocotiledóneas, la única familia del orden Arecales. Normalmente se las conoce como palmeras o palmas. Los individuos de esta importante familia son fáciles de reconocer visualmente",
+    "stock": 50
+  },
+  {
+    "id": 28,
+    "nombre": "Jacarandá",
+    "precio": 6800,
+    "cantidad": 1,
+    "img": "../imagenes/Jacaranda.jpeg",
+    "categoria": "arboles",
+    "descripcion":"Los Jacarandas pueden alcanzar desde los 2 a los 30 metros de altura, de los cuales el fuste representa unos dos tercios. Este llega a los 70 cm de diámetro, de forma recta y estilizada. La copa es poco densa y se asemeja a un cono invertido.",
+    "stock": 17
+  },
+  {
+    "id": 29,
+    "nombre": "Guindo",
+    "precio": 6800,
+    "cantidad": 1,
+    "img": "../imagenes/.Guindo.jpeg",
+    "categoria": "frutales",
+    "descripcion":"Árbol de la familia de las rosáceas, especie de cerezo, del que puede distinguirse por ser las hojas más pequeñas y el fruto más redondo y comúnmente ácido.",
+    "stock": 24
+  },
+  {
+    "id": 30,
+    "nombre": "Araucaria",
+    "precio": 6800,
+    "cantidad": 1,
+    "img": "../imagenes/Araucaria2.jpeg",
+    "categoria": "arboles",
+    "descripcion":"Crece hasta 15 m de altura en un único tallo de hasta 20-35 cm de diámetro. El tronco es muy duro con las bases de las hojas persistentes apretando el tallo como las capas de material fibroso grueso. Es una palma de abanico.",
+    "stock": 37
   }
 ]

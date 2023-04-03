@@ -8,6 +8,7 @@
     margin: 40px;
     padding-left: 10px;
     /* border: 50px solid darkolivegreen;  */
+    box-shadow: 10px ;
   }
 
  
@@ -26,4 +27,8 @@
 .boton{
     color: white;
     background-color: darkolivegreen;
+}
+
+.sombra{
+     box-shadow: 5px 5px;
 }
