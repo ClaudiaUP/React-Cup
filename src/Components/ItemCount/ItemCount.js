@@ -32,7 +32,7 @@ const ItemCount = ( {max, cantidad, setCantidad, handleAgregar} ) => {
             </button>
 
             <br/>
-            <button onClick={handleAgregar} className="btn btn-success my-4">Agregar al carrito</button>
+            <button onClick={handleAgregar} className="btn btn-success my-3 ms-3">Agregar al carrito</button>
         </div>
     )
 }

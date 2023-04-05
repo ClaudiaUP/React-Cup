@@ -25,6 +25,9 @@
 .boton{
     color: white;
     background-color: darkolivegreen;
+    text-decoration:none;
+    margin-top: 20px;
+    padding: 5px 20px 5px 20px;
 }
 
 .sombra{

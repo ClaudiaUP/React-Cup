@@ -3,6 +3,7 @@ import { useContext } from "react"
 import { CartContext } from "../../context/CartContext"
 import { BsFillTrashFill } from 'react-icons/bs'
 import {Link} from "react-router-dom"
+import './Cart.css'
 
 const Cart = () => {
 
@@ -20,32 +21,36 @@ const Cart = () => {
 
     return (
         <div className="container my-5">
-            <h2>Tu compra</h2>
+            <h2>Carrito</h2>
+            <h5 className= 'ubicarDerecha'>Precio</h5>
             <hr/>
 
             {
                 cart.map((prod) => (
-                    <div key={prod.id}>
-                        <h4>{prod.name}</h4>
-                        <div className= "col mx-auto p-2">
-                        <img src={prod.img} width='100' alt={prod.name}/>
-                        </div>
-                        <small>Precio unitario: ${prod.precio} </small>
-                        <small>Cantidad: {prod.cantidad}</small>
-                        <p>Precio Total: ${prod.precio * prod.cantidad}</p>
+                    <div key={prod.id} className="contenedorProd">
+                      <img src={prod.img} width='150' alt={prod.name}/>
+                        <div className='contenedorDetalle'>
+                        <h4>{prod.nombre}</h4>
+                        <p>Precio unitario: ${prod.precio} </p>
+                        <p>Cantidad: {prod.cantidad}</p>
                         <button 
                             onClick={() => eliminarDelCarrito(prod.id) } 
                             className="btn btn-danger"
                         >
-                            <BsFillTrashFill/>
+                         <BsFillTrashFill/>   
                         </button>
+                        </div>
+                        <div className='ubicarDerecha'>
+                        <p className='ubicarDerecha2'>Total: ${prod.precio * prod.cantidad}</p>
+                        </div>
                         <hr/>
+                        
                     </div>
                 ))
             }
 
-            <h3>TOTAL: ${totalCompra().toFixed(2)}</h3>
-            <button onClick={vaciarCarrito} className="btn btn-danger">Vaciar carrito</button>
+            <h4 className='ubicarDerecha'>TOTAL: ${totalCompra().toFixed(2)}</h4>
+            <button onClick={vaciarCarrito} className="btn btn-danger m-3">Vaciar carrito</button>
             <Link className= "btn btn-success" to ="/checkout">Terminar mi compra</Link>
         </div>
     )

@@ -1,0 +1,31 @@
+
+.contenedorProd{
+    width:100%;
+    height: 250px;
+    margin: 10px 10px 20px 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center;  */
+    background-color: #f8f7fa;
+    
+}
+
+.contenedorDetalle{
+    width: 650px;
+    margin-left: 5px;
+    margin-right: 20px;
+    text-align:center;
+     padding: 10px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    font-weight: 400; 
+    
+}
+
+.ubicarDerecha{
+    display: flex;
+    justify-content: end;
+}
+ .ubicarDerecha2{
+    margin-left: 150px;
+} 

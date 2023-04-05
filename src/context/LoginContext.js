@@ -15,7 +15,7 @@ export const LoginProvider = ({children}) => {
     const googleLogin = () => {
         signInWithPopup(auth, provider)
             .then((result) => {
-                console.log(result)
+                
             })
     }
 

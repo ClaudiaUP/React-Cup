@@ -55,7 +55,7 @@ const ItemDetail = ({item}) =>{
             }
 
             <br/>     
-            <button onClick={handleVolver} className="ms-5 boton">Volver</button>
+            <button onClick={handleVolver} className="ms-4 boton">Seguir comprando</button>
             </div>
         </div>
     )

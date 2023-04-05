@@ -4,22 +4,22 @@ import { Link, Navigate } from "react-router-dom"
 import { CartContext } from "../../context/CartContext"
 import { db } from "../../firebase/config"
 import { collection, query, where, addDoc, writeBatch, documentId, getDocs } from "firebase/firestore"
- import { Formik } from 'formik'
- import * as Yup from 'yup';
+import { Formik } from 'formik'
+import * as Yup from 'yup';
 
- const schema = Yup.object().shape({
-     nombre: Yup.string()
+const schema = Yup.object().shape({
+    nombre: Yup.string()
                 .required('Este campo es obligatorio')
                 .min(4, 'Mínimo 4 caracteres')
                 .max(30, 'Máximo 30 caracteres'),
-     direccion: Yup.string()
+    direccion: Yup.string()
                 .required('Este campo es obligatorio')
                 .min(6, 'Mínimo 6 caracteres')
                 .max(30, 'Máximo 30 caracteres'),
-     email: Yup.string()
+    email: Yup.string()
                 .email('El email es inválido')
                 .required('Este campo es obligatorio')
- })
+})
 
 const Checkout = () => {
     const { cart, totalCompra, vaciarCarrito } = useContext(CartContext)
