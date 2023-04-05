@@ -21,12 +21,12 @@ export const LoginProvider = ({children}) => {
 
     const login = (values) => {
         signInWithEmailAndPassword(auth, values.email, values.password)
-            .catch((err) => console.log(err))
+            .catch((err) => alert ("El usario o password no son correctos, vuelva a intentar"))
     }
 
     const register = (values) => {
         createUserWithEmailAndPassword(auth, values.email, values.password)
-            .catch((err) => console.log(err.message))
+            .catch((err) => alert("Revise los valores ingresados"))
     }
 
     const logout = () => {

@@ -5,10 +5,8 @@
     align-items: center;
     width: 200px;
     height: 400px;
-    margin: 40px;
+    margin-left: 100px;
     padding-left: 10px;
-    /* border: 50px solid darkolivegreen;  */
-    box-shadow: 10px ;
   }
 
  
@@ -31,4 +29,5 @@
 
 .sombra{
      box-shadow: 5px 5px;
+    border: 3px solid darkolivegreen; 
 }

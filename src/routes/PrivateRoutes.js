@@ -1,6 +1,5 @@
 import ItemListContainer from "../Components/ItemListContainer/ItemListContainer";
 import { Navbarx } from "../Components/NavBar/NavBar";
-import Nosotros from "../Components/Nosotros/Nosotros";
 import Contacto from "../Components/Contacto/Contacto";
 import ItemDetailContainer from "../Components/ItemDetailContainer/ItemDetailContainer";
 import Cart from "../Components/Cart/Cart";
@@ -20,7 +19,6 @@ const PrivateRoutes = () => {
                 <Route path="/detail/:itemId" element={ <ItemDetailContainer /> }/>
                 <Route path="/cart" element={ <Cart /> } />
                 <Route path="/checkout" element={ <Checkout /> } />
-                <Route path="/nosotros" element={ <Nosotros /> } />
                 <Route path="/contacto" element={ <Contacto /> } />
                 <Route path="*" element={ <Navigate to="/" /> }/>
             </Routes>

@@ -27,7 +27,9 @@ const Cart = () => {
                 cart.map((prod) => (
                     <div key={prod.id}>
                         <h4>{prod.name}</h4>
-                        <img src={prod.img} alt={prod.name}/>
+                        <div className= "col mx-auto p-2">
+                        <img src={prod.img} width='100' alt={prod.name}/>
+                        </div>
                         <small>Precio unitario: ${prod.precio} </small>
                         <small>Cantidad: {prod.cantidad}</small>
                         <p>Precio Total: ${prod.precio * prod.cantidad}</p>

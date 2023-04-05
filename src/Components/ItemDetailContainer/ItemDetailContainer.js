@@ -15,14 +15,12 @@ const ItemDetailContainer = () => {
     useEffect(() => {
         setLoading(true)
 
-        // 1.- referencia sync
+        // 1.- referencia sincrónica
         const docRef = doc(db, "productos", itemId)
-        // 2.- llamado async
+        // 2.- llamado asincrónica
         getDoc(docRef)
             .then((doc) => {
-                console.log(doc.id)
-                console.log(doc.data())
-                setItem({
+        setItem({
                     id: doc.id,
                     ...doc.data()
                 })

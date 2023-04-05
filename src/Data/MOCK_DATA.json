@@ -154,7 +154,7 @@
     "nombre": "Cryptomería",
     "precio": 5500,
     "cantidad": 1,
-    "img": "../imagenes/Criptomeria",
+    "img": "../imagenes/Criptomeria.jpg",
     "categoria": "arboles",
     "descripcion": "Es un árbol perennifolio muy grande, alcanzando 70 m de altura y 4 m de diámetro de tronco, con corteza rojo parduzca con flecos en tiras verticales. Tiene hojas espiraladas, tipo aguja.",
     "stock": 30
@@ -284,14 +284,14 @@
     "nombre": "Guindo",
     "precio": 6800,
     "cantidad": 1,
-    "img": "../imagenes/Guindo.jpeg",
+    "img": "../imagenes/Guindo.jpg",
     "categoria": "frutales",
     "descripcion":"Árbol de la familia de las rosáceas, especie de cerezo, del que puede distinguirse por ser las hojas más pequeñas y el fruto más redondo y comúnmente ácido.",
     "stock": 24
   },
   {
     "id": 30,
-    "nombre": "Araucaria",
+     "nombre": "Araucaria",
     "precio": 6800,
     "cantidad": 1,
     "img": "../imagenes/Araucaria2.jpeg",
