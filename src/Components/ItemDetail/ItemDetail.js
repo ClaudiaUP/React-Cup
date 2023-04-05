@@ -5,7 +5,7 @@ import {useContext, useState} from "react"
 import ItemCount from "../ItemCount/ItemCount"
 import {CartContext} from "../../context/CartContext"
 import LowStockMsg from "./LowStockMsg"
-// import Memo from "./Memo"
+
 
 const ItemDetail = ({item}) =>{
 
@@ -26,7 +26,6 @@ const ItemDetail = ({item}) =>{
     agregarAlCarrito(newItem)    
     }
 
-    // const fechaMontaje= useMemo(() => new Date().toLocaleString(), [])
 
     return(
         <div className=' contenedorPlantas'>
@@ -38,16 +37,15 @@ const ItemDetail = ({item}) =>{
             <p className='precio'>Precio: ${item.precio}</p>  
             </div>
 
-            <div>
+        <div>
             { item.stock <= 5 && <LowStockMsg stock={item.stock}/>}
 
-            {/* <p>{fechaMontaje}</p> */}
-            {/* <Memo /> */}
+            
             
 
             {
                 isInCart(item.id)
-                    ?   <Link to="/cart" className="btn btn-success my-2">Terminar mi compra</Link>
+                    ?   <Link to="/cart" className="btn btn-success my-3">Terminar mi compra</Link>
                     :   <ItemCount 
                             max={item.stock}
                             cantidad={cantidad}
@@ -57,7 +55,7 @@ const ItemDetail = ({item}) =>{
             }
 
             <br/>     
-            <button onClick={handleVolver} className="boton">Volver</button>
+            <button onClick={handleVolver} className="ms-5 boton">Volver</button>
             </div>
         </div>
     )

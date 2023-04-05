@@ -13,7 +13,7 @@ const ItemCount = ( {max, cantidad, setCantidad, handleAgregar} ) => {
         <div className="my-3">
 
             <button onClick={handleRestar}
-            className={`btn boton ${cantidad ===1 ?"btn btn-outline-danger"
+            className={` ms-4 btn boton ${cantidad ===1 ?"btn btn-outline-danger"
                                        :"btn btn-outline-primary"}`}
              disable={cantidad===1}                          
               >                         
@@ -32,7 +32,7 @@ const ItemCount = ( {max, cantidad, setCantidad, handleAgregar} ) => {
             </button>
 
             <br/>
-            <button onClick={handleAgregar} className="btn btn-success my-2">Agregar al carrito</button>
+            <button onClick={handleAgregar} className="btn btn-success my-4">Agregar al carrito</button>
         </div>
     )
 }

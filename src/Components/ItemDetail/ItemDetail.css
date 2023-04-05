@@ -1,8 +1,8 @@
 
 .contenedorPlantas{ 
-    width:1170px;
-    height: 368px;
-    margin: 10px 10px 50px;
+    width:98%;
+    height: 350px;
+    margin: 10px 10px 20px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,20 +12,28 @@
 }
 
 .imagen-planta{
-    height:100%;
+    height:80%;
     width:auto;
 
 }
 
-.contonedorDetalle{
+.contenedorDetalle{
+    width: 500px;
+    margin-left: 20px;
+    margin-right: 60px;
     text-align:center;
      padding: 10px; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.5;
     font-weight: 400; 
+    
 }
 
 .boton{
     color: white;
     background-color: darkolivegreen;
+}
+
+.precio{
+    font-weight: 600;
 }
