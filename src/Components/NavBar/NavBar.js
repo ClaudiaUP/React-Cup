@@ -34,7 +34,7 @@ export const Navbarx =() => {
               <Link to="/productos/arbustos" className = "navbar_link">Arbustos</Link>
               <Link to="/productos/frutales" className = "navbar_link">Frutales</Link>
               <Link to="/productos/palmeras" className = "navbar_link">Palmeras</Link>
-              <Link to="/contacto" className = "navbar_link">Servicios</Link>
+              <Link to="/servicios" className = "navbar_link">Servicios</Link>
               
            <CartWidget />
            </nav>
