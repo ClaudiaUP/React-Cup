@@ -1,15 +1,15 @@
 
- .cart-widget{
-    font-size: 26px;
-    color:black;
-    visibility:hidden;
-    min-width:100px;
-    opacity:0;
-    transition: all .3s;
+.cart-widget{
+      font-size: 26px;
+      color:black;
+      visibility:hidden;
+      min-width:100px;
+      opacity:0;
+      transition: all .3s;
  }
 
- .cart-widget-active{
-    visibility: visible;
-     opacity: 1;
+.cart-widget-active{
+      visibility: visible;
+      opacity: 1;
 }
 

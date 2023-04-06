@@ -28,20 +28,21 @@ const Cart = () => {
             {
                 cart.map((prod) => (
                     <div key={prod.id} className="contenedorProd">
-                      <img src={prod.img} width='150' alt={prod.name}/>
+                        <img src={prod.img} width='150' alt={prod.name}/>
                         <div className='contenedorDetalle'>
-                        <h4>{prod.nombre}</h4>
-                        <p>Precio unitario: ${prod.precio} </p>
-                        <p>Cantidad: {prod.cantidad}</p>
-                        <button 
-                            onClick={() => eliminarDelCarrito(prod.id) } 
-                            className="btn btn-danger"
-                        >
-                         <BsFillTrashFill/>   
-                        </button>
+                            <h4>{prod.nombre}</h4>
+                            <p>Precio unitario: ${prod.precio} </p>
+                            <p>Cantidad: {prod.cantidad}</p>
+                            <button 
+                                onClick={() => eliminarDelCarrito(prod.id) } 
+                                className="btn btn-danger"
+                                >
+                                <BsFillTrashFill/>   
+                            </button>
                         </div>
+                        
                         <div className='ubicarDerecha'>
-                        <p className='ubicarDerecha2'>Total: ${prod.precio * prod.cantidad}</p>
+                            <p className='ubicarDerecha2'>Total: ${prod.precio * prod.cantidad}</p>
                         </div>
                         <hr/>
                         
@@ -49,9 +50,9 @@ const Cart = () => {
                 ))
             }
 
-            <h4 className='ubicarDerecha'>TOTAL: ${totalCompra().toFixed(2)}</h4>
-            <button onClick={vaciarCarrito} className="btn btn-danger m-3">Vaciar carrito</button>
-            <Link className= "btn btn-success" to ="/checkout">Terminar mi compra</Link>
+                <h4 className='ubicarDerecha'>TOTAL: ${totalCompra().toFixed(2)}</h4>
+                <button onClick={vaciarCarrito} className="btn btn-danger m-3">Vaciar   carrito</button>
+                <Link className= "btn btn-success" to ="/checkout">Terminar mi compra</ Link>
         </div>
     )
 }

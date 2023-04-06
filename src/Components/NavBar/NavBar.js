@@ -34,7 +34,7 @@ export const Navbarx =() => {
               <Link to="/productos/arbustos" className = "navbar_link">Arbustos</Link>
               <Link to="/productos/frutales" className = "navbar_link">Frutales</Link>
               <Link to="/productos/palmeras" className = "navbar_link">Palmeras</Link>
-              <Link to="/contacto" className = "navbar_link">Contacto</Link>
+              <Link to="/contacto" className = "navbar_link">Servicios</Link>
               
            <CartWidget />
            </nav>
@@ -43,8 +43,8 @@ export const Navbarx =() => {
         </div>
 
         <div className = 'login-state container'>
-          <h6 className= 'my-3'>Bienvenido {user.email}</h6>
-          <button className= 'btn btn-danger mt-3' onClick= {logout}>Logout</button>
+          <h6 className= 'my-3 text-dark'>Bienvenido {user.email}</h6>
+          <button className= 'btn btn-success mt-3' onClick= {logout}>Logout</button>
         </div>
       </header>
   )

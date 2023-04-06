@@ -2,6 +2,7 @@ import { signOut, createUserWithEmailAndPassword, onAuthStateChanged, signInWith
 import { createContext, useEffect, useState } from "react";
 import { auth, provider } from "../firebase/config";
 
+
 export const LoginContext = createContext()
 
 
@@ -14,8 +15,8 @@ export const LoginProvider = ({children}) => {
 
     const googleLogin = () => {
         signInWithPopup(auth, provider)
-            .then((result) => {
-                
+            .then((result) =>{
+                console.log(result)
             })
     }
 
@@ -26,7 +27,9 @@ export const LoginProvider = ({children}) => {
 
     const register = (values) => {
         createUserWithEmailAndPassword(auth, values.email, values.password)
-            .catch((err) => alert("Revise los valores ingresados"))
+            .catch((err) => alert("Revice los valores ingresados")
+            
+            )
     }
 
     const logout = () => {

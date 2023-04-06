@@ -75,7 +75,7 @@ const Checkout = () => {
                 <h2>Tu orden se registró con éxito!</h2>
                 <hr/>
                 <p>Guarda tu número de orden: {orderId}</p>
-                <Link className="btn btn-primary my-3" to="/">Volver al inicio</Link>
+                <Link className="btn btn-success my-3" to="/">Volver al inicio</Link>
             </div>
         )
     }
@@ -132,7 +132,7 @@ const Checkout = () => {
                         {errors.email && <p className="alert alert-danger">{errors.email}</p>}
 
 
-                        <button className="btn btn-primary" type="submit" disabled={isSubmitting}>Enviar</button>
+                        <button className="btn btn-success" type="submit" disabled={isSubmitting}>Enviar</button>
                     </form>
                 )}
                 </Formik>}

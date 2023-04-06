@@ -25,6 +25,7 @@
 .ubicarDerecha{
     display: flex;
     justify-content:flex-end;
+    margin-right:200px
 }
  .ubicarDerecha2{
     margin-left: 150px;
