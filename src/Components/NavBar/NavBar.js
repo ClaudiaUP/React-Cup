@@ -43,8 +43,8 @@ export const Navbarx =() => {
         </div>
 
         <div className = 'login-state container'>
-          <h6>Bienvenido {user.email}</h6>
-          <button className= 'btn btn-danger' onClick= {logout}>Logout</button>
+          <h6 className= 'my-3'>Bienvenido {user.email}</h6>
+          <button className= 'btn btn-danger mt-3' onClick= {logout}>Logout</button>
         </div>
       </header>
   )

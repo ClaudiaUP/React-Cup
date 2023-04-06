@@ -50,8 +50,8 @@ const RegisterScreen = () => {
                         name='password'
                     />
 
-                    <button className='btn btn-primary' type='submit'>Crear usuario</button>
-                    <Link to="/login">Ya estoy registrado, logearme</Link>
+                    <button className='btn btn-primary me-3' type='submit'>Crear usuario</button>
+                    <Link to="/login"><button className= 'btn btn-primary ms-3'>Ya estoy registrado, logeame</button></Link>
                 </form>
 
             </div>
