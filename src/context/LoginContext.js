@@ -28,8 +28,7 @@ export const LoginProvider = ({children}) => {
     const register = (values) => {
         createUserWithEmailAndPassword(auth, values.email, values.password)
             .catch((err) => alert("Revice los valores ingresados")
-            
-            )
+     )
     }
 
     const logout = () => {
